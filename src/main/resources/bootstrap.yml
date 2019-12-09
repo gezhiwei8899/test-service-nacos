@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: ${NACOS-HOST:212.64.21.52:8848}
+        file-extension: yaml
+      discovery:
+        server-addr: ${NACOS-HOST:212.64.21.52:8848}
+  application:
+    name: test
+  profiles:
+    active: @spring.profiles.active@
+server:
+  port: 8979
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+config:
+  db:
+    driver: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    com:
+      test: debug
