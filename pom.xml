@@ -19,7 +19,7 @@
 		<spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
 		<nacos.client.version>0.9.0.RELEASE</nacos.client.version>
 		<spring-cloud-alibaba.version>0.9.0.RELEASE</spring-cloud-alibaba.version>
-		<mysql.connector.version>8.0.13</mysql.connector.version>
+		<mysql.connector.version>8.0.16</mysql.connector.version>
 	</properties>
 
 	<dependencies>
